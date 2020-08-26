@@ -5,13 +5,42 @@ VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "git_ssis", "git_ssis.dtproj", "{0B2D737B-88A7-4B1A-8F3D-814FA2769527}"
 EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "MultidimensionalProject1", "..\MultidimensionalProject1\MultidimensionalProject1.dwproj", "{06CDE37B-D2F4-4E8F-B617-938A5B135464}"
+EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "Report Project1", "..\Report Project1\Report Project1.rptproj", "{C9A7C5C0-2200-4D8A-A71C-F093016F4E56}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
 		Development|Default = Development|Default
+		Release|Default = Release|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B2D737B-88A7-4B1A-8F3D-814FA2769527}.Debug|Default.ActiveCfg = Development
+		{0B2D737B-88A7-4B1A-8F3D-814FA2769527}.Debug|Default.Build.0 = Development
+		{0B2D737B-88A7-4B1A-8F3D-814FA2769527}.DebugLocal|Default.ActiveCfg = Development
+		{0B2D737B-88A7-4B1A-8F3D-814FA2769527}.DebugLocal|Default.Build.0 = Development
 		{0B2D737B-88A7-4B1A-8F3D-814FA2769527}.Development|Default.ActiveCfg = Development
 		{0B2D737B-88A7-4B1A-8F3D-814FA2769527}.Development|Default.Build.0 = Development
+		{0B2D737B-88A7-4B1A-8F3D-814FA2769527}.Release|Default.ActiveCfg = Development
+		{0B2D737B-88A7-4B1A-8F3D-814FA2769527}.Release|Default.Build.0 = Development
+		{06CDE37B-D2F4-4E8F-B617-938A5B135464}.Debug|Default.ActiveCfg = Development
+		{06CDE37B-D2F4-4E8F-B617-938A5B135464}.DebugLocal|Default.ActiveCfg = Development
+		{06CDE37B-D2F4-4E8F-B617-938A5B135464}.Development|Default.ActiveCfg = Development
+		{06CDE37B-D2F4-4E8F-B617-938A5B135464}.Development|Default.Build.0 = Development
+		{06CDE37B-D2F4-4E8F-B617-938A5B135464}.Development|Default.Deploy.0 = Development
+		{06CDE37B-D2F4-4E8F-B617-938A5B135464}.Release|Default.ActiveCfg = Development
+		{C9A7C5C0-2200-4D8A-A71C-F093016F4E56}.Debug|Default.ActiveCfg = Debug
+		{C9A7C5C0-2200-4D8A-A71C-F093016F4E56}.Debug|Default.Build.0 = Debug
+		{C9A7C5C0-2200-4D8A-A71C-F093016F4E56}.Debug|Default.Deploy.0 = Debug
+		{C9A7C5C0-2200-4D8A-A71C-F093016F4E56}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{C9A7C5C0-2200-4D8A-A71C-F093016F4E56}.DebugLocal|Default.Build.0 = DebugLocal
+		{C9A7C5C0-2200-4D8A-A71C-F093016F4E56}.Development|Default.ActiveCfg = DebugLocal
+		{C9A7C5C0-2200-4D8A-A71C-F093016F4E56}.Development|Default.Build.0 = DebugLocal
+		{C9A7C5C0-2200-4D8A-A71C-F093016F4E56}.Release|Default.ActiveCfg = Release
+		{C9A7C5C0-2200-4D8A-A71C-F093016F4E56}.Release|Default.Build.0 = Release
+		{C9A7C5C0-2200-4D8A-A71C-F093016F4E56}.Release|Default.Deploy.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
